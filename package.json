@@ -3,18 +3,17 @@
   "version": "1.0.0",
   "description": "boilerplate cypress project with typescript",
   "main": "index.js",
-  "dependencies": {
-    "cypress": "^3.4.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@cypress/webpack-preprocessor": "^4.1.0",
+    "cypress": "^5.4.0",
     "ts-loader": "^6.0.4",
-    "typescript": "^3.5.3",
+    "typescript": "^3.9.7",
     "webpack": "^4.36.1"
   },
   "scripts": {
-    "cypress:run": "./node_modules/cypress/bin/cypress run",
-    "test": "npm run cypress:run"
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
   },
   "author": "Judson Carver",
   "license": "ISC"
